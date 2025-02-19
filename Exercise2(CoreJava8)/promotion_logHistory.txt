@@ -1,0 +1,6 @@
+User with name Jeevan Rajpurohit and Id 1 was promoted.
+User with name Rakesh Rajpurohit and Id 2 was promoted.
+User with name Bhavesh Rajpurohit and Id 3 was promoted.
+User with name Jeevan Rajpurohit and Id 1 was promoted.
+User with name Rakesh Rajpurohit and Id 2 was promoted.
+User with name Bhavesh Rajpurohit and Id 3 was promoted.
