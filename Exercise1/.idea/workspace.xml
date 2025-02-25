@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="88aeb068-e290-41b4-a3a7-cc2ed73dbb35" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Core-Java-Learning/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Core-Java-Learning/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HibernateLearning/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../HibernateLearning/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HibernateLearning/src/main/java/oneToOneLearning/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../HibernateLearning/src/main/java/oneToOneLearning/Answer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HibernateLearning/src/main/java/oneToOneLearning/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../HibernateLearning/src/main/java/oneToOneLearning/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HibernateLearning/src/main/java/oneToOneLearning/oneToneDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../HibernateLearning/src/main/java/oneToOneLearning/oneToneDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HibernateLearning/src/main/java/org/example/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../HibernateLearning/src/main/java/org/example/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HibernateLearning/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../HibernateLearning/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "JeevanRajpurohit"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/JeevanRajpurohit/Java-Learning.git",
+    "accountId": "4510a5dc-93e2-4dde-81eb-a6d5ba7656a6"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2t1j3oDShIX929SiieFLDLQjEKi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ECommerceDiscountSystem.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/jeeva/IdeaProjects/Excericse/Exercise2- (Core+Java 8)"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="88aeb068-e290-41b4-a3a7-cc2ed73dbb35" name="Changes" comment="" />
+      <created>1739526277174</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739526277174</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -21,6 +21,8 @@ class Intern extends Employee implements Promotable {
     }
 
     @Override
+
+
     public void promote(double salaryIncrease) throws InvalidPromotionException {
         if (performanceScore < 30) {
             throw new InvalidPromotionException("Keep Learning Please Interns, Performance score too low for promotion");
