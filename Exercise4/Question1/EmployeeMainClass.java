@@ -20,6 +20,12 @@ public class EmployeeMainClass {
         if ("null".equals(name) || name.isEmpty()) {
             return false;
         }
+        for (char c : name.toCharArray()) {
+            if (!Character.isLetter(c) && !Character.isWhitespace(c)) {
+                return false;
+            }
+        }
+
         return true;
     }
     private static boolean isEmployeeIdExists(List<Employee> employeeList, int employeeId) {
@@ -47,10 +53,11 @@ public class EmployeeMainClass {
             while (true) {
 
                 System.out.print("Enter the details of employee number " + n + ", Please Enter employeeId :");
+
                 if (sc.hasNextInt()) {
                     employeeId = sc.nextInt();
                     sc.nextLine();
-                    if (employeeId > 0 && !isEmployeeIdExists(employeeList, employeeId)) {
+                    if ( employeeId > 0 && !isEmployeeIdExists(employeeList, employeeId)) {
                         break;
                     } else if (employeeId <= 0) {
                         System.out.println("Employee ID must be a positive integer. Please try again.");
@@ -80,7 +87,7 @@ public class EmployeeMainClass {
                 if (isValidDepartmentName(employeeDepartment)) {
                     break;
                 }else {
-                    System.out.println("Invalid input. Department should not be empty or null. Please try again.");
+                    System.out.println("Invalid input. Department should not be empty or null or order than letters. Please try again.");
                 }
             }
 
