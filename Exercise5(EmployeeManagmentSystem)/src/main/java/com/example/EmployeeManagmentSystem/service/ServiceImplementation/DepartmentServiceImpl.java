@@ -1,9 +1,10 @@
-package com.example.EmployeeManagmentSystem.service;
+package com.example.EmployeeManagmentSystem.service.ServiceImplementation;
 
 import com.example.EmployeeManagmentSystem.dto.DepartmentDto;
 import com.example.EmployeeManagmentSystem.entity.Department;
 import com.example.EmployeeManagmentSystem.exception.DepartmentNotFoundException;
 import com.example.EmployeeManagmentSystem.repositories.DepartmentRepository;
+import com.example.EmployeeManagmentSystem.service.DepartmentService;
 import jakarta.transaction.Transactional;
 import org.springframework.stereotype.Service;
 

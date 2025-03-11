@@ -1,10 +1,11 @@
-package com.example.EmployeeManagmentSystem.service;
+package com.example.EmployeeManagmentSystem.service.ServiceImplementation;
 
 import com.example.EmployeeManagmentSystem.dto.ProjectDto;
 import com.example.EmployeeManagmentSystem.entity.Employee;
 import com.example.EmployeeManagmentSystem.entity.Project;
 import com.example.EmployeeManagmentSystem.exception.ProjectNotFoundException;
 import com.example.EmployeeManagmentSystem.repositories.ProjectRepository;
+import com.example.EmployeeManagmentSystem.service.ProjectService;
 import jakarta.transaction.Transactional;
 import org.springframework.stereotype.Service;
 
@@ -14,7 +15,7 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service
-public class ProjectServiceImpl implements ProjectService{
+public class ProjectServiceImpl implements ProjectService {
     private final ProjectRepository projectRepository;
 
     public ProjectServiceImpl(ProjectRepository projectRepository) {

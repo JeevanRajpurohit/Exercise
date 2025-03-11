@@ -1,4 +1,4 @@
-package com.example.EmployeeManagmentSystem.service;
+package com.example.EmployeeManagmentSystem.service.ServiceImplementation;
 
 import com.example.EmployeeManagmentSystem.dto.DepartmentDto;
 import com.example.EmployeeManagmentSystem.dto.EmployeeDto;
@@ -13,6 +13,7 @@ import com.example.EmployeeManagmentSystem.exception.EmployeeNotFoundException;
 import com.example.EmployeeManagmentSystem.exception.InvalidSalaryException;
 import com.example.EmployeeManagmentSystem.repositories.DepartmentRepository;
 import com.example.EmployeeManagmentSystem.repositories.EmployeeRepository;
+import com.example.EmployeeManagmentSystem.service.*;
 import jakarta.transaction.Transactional;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -26,7 +27,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 @Service
-public class EmployeeServiceImpl implements EmployeeService{
+public class EmployeeServiceImpl implements EmployeeService {
     private final EmployeeRepository employeeRepository;
     private final DepartmentService departmentService;
     private final SalaryService salaryService;

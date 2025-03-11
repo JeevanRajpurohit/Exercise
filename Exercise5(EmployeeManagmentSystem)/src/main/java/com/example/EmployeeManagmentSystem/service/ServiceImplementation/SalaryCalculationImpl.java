@@ -1,4 +1,6 @@
-package com.example.EmployeeManagmentSystem.service;
+package com.example.EmployeeManagmentSystem.service.ServiceImplementation;
+
+import com.example.EmployeeManagmentSystem.service.SalaryCalculation;
 
 public class SalaryCalculationImpl implements SalaryCalculation {
     @Override
