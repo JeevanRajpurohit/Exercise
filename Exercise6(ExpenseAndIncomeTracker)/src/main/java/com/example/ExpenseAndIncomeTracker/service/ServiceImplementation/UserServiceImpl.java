@@ -31,19 +31,7 @@ public class UserServiceImpl implements UserService {
         return userRepository.findByUsername(username);
     }
 
-    @Override
-    public void deleteByUsername(String username) {
-        logger.info("Deleting user with username: {}", username);
-        Optional<User> userOptional = userRepository.findByUsername(username);
 
-        if (userOptional.isEmpty()) {
-            logger.error("User not found with username : {}", username);
-            throw new EntityNotFoundException("User not found with username: " + username);
-        }
-
-        userRepository.delete(userOptional.get());
-        logger.info("User deleted successfully: {}", username);
-    }
 
     @Override
     public List<User> findAll() {
