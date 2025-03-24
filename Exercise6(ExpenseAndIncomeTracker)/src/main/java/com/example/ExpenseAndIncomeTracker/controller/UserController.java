@@ -39,19 +39,6 @@ public class UserController {
         return ResponseEntity.ok(response);
     }
 
-    @DeleteMapping("/{username}")
-    public ResponseEntity<?> deleteUser(@PathVariable String username) {
-        userService.deleteByUsername(username);
-        ResponseHandler response = new ResponseHandler(
-                null,
-                messageSource.getMessage("user.delete.success", null, LocaleContextHolder.getLocale()),
-                HttpStatus.OK.value(),
-                true,
-                "user"
-        );
-        return ResponseEntity.ok(response);
-    }
-
     @GetMapping("/getAll")
     public ResponseEntity<?> getAllUsers() {
         List<User> users = userService.findAll();
