@@ -12,7 +12,5 @@ public interface UserService {
 
     void updatePassword(String username, PasswordUpdateDto passwordUpdateDto);
 
-    void deleteByUsername(String username);
-
     Optional<User> findByUsername(String username);
 }
