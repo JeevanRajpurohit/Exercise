@@ -40,7 +40,4 @@ public class UserRepository {
         return dynamoDBMapper.scan(User.class, new DynamoDBScanExpression());
     }
 
-    public void delete(User user) {
-        dynamoDBMapper.delete(user);
-    }
 }
