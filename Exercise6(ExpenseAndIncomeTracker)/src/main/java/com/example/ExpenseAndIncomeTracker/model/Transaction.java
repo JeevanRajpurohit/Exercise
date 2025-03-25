@@ -24,7 +24,7 @@ public class Transaction {
     @DynamoDBAttribute
     private String type;
 
-    @DynamoDBAttribute
+    @DynamoDBIndexRangeKey(globalSecondaryIndexName = "DateIndex")
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd hh:mm:ss")
     private Date createdAt;
 
@@ -32,14 +32,7 @@ public class Transaction {
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd hh:mm:ss")
     private Date modifiedAt;
 
-    @DynamoDBRangeKey(attributeName = "createdAtSortKey")
-    private String createdAtSortKey;
-
     @DynamoDBIndexHashKey(globalSecondaryIndexName = "CategoryIndex", attributeName = "category")
     private String category;
-
-    @DynamoDBIndexRangeKey(globalSecondaryIndexName = "DateIndex")
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd hh:mm:ss")
-    private Date dateSortKey;
 
 }
