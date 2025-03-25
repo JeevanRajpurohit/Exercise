@@ -33,7 +33,6 @@ public class TransactionServiceImpl implements TransactionService {
         transaction.setUserId(userId);
         transaction.setCreatedAt(new Date());
         transaction.setModifiedAt(new Date());
-        transaction.setDateSortKey(new Date());
         return transactionRepository.save(transaction);
     }
 
