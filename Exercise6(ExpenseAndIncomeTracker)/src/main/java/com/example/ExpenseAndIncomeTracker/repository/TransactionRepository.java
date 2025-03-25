@@ -16,8 +16,6 @@ public class TransactionRepository {
     private DynamoDBMapper dynamoDBMapper;
 
     public Transaction save(Transaction transaction) {
-        transaction.setCreatedAtSortKey(transaction.getCreatedAt().toString());
-        transaction.setDateSortKey(transaction.getDateSortKey());
         dynamoDBMapper.save(transaction);
         return transaction;
     }
@@ -46,8 +44,7 @@ public class TransactionRepository {
                 .withKeyConditionExpression("category = :category")
                 .withFilterExpression("userId = :userId")
                 .withExpressionAttributeValues(eav)
-                .withConsistentRead(false)
-                .withScanIndexForward(true);
+                .withConsistentRead(false);
 
         return dynamoDBMapper.query(Transaction.class, queryExpression);
     }
