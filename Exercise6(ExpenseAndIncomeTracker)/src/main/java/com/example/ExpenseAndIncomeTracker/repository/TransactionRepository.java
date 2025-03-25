@@ -62,7 +62,7 @@ public class TransactionRepository {
 
         DynamoDBQueryExpression<Transaction> queryExpression = new DynamoDBQueryExpression<Transaction>()
                 .withIndexName("DateIndex")
-                .withKeyConditionExpression("userId = :userId AND dateSortKey BETWEEN :startDate AND :endDate")
+                .withKeyConditionExpression("userId = :userId AND createdAt BETWEEN :startDate AND :endDate")
                 .withExpressionAttributeValues(eav)
                 .withConsistentRead(false);
 
